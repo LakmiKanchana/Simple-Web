@@ -6,5 +6,266 @@
 .main
 {
     width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,5)50%,rgba(0,0,0,5)50%), url("image/1.jpg");
+    background: url("image/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+}
+mark
+{
+    background-color: yellow;
+}
+.menu
+{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color: aquamarine;
+}
+
+.search
+{
+    width: 300px;
+    float: left;
+    margin-left: 270px;
+}
+.srch
+{
+    font-family: Arial;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    color: rgb(253, 253, 246);
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 16px;
+    float: left;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: transparent;
+}
+
+.srch:focus
+{
+    background-color: rgb(17, 17, 3);
+}
+
+.btn
+{
+
+    border: 2px solid;
+    margin-top: 10px;
+    color: black;
+    font-size: 16px ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+    width: 240px;
+    height: 40px;
+    background: yellowgreen;
+
+}
+
+.btn:focus
+{
+    background-color: rgb(243, 243, 70);
+}
+
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:rgb(17, 14, 9);
+    position: relative;
+}
+.para
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 5.2px;
+    line-height: 30px;
+    color: rgb(17, 16, 16);
+
+}
+.para mark
+{
+    background-color: rgb(245, 240, 240);
+}
+h1
+{
+    font-family: Georgia;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.cn
+{
+    width: 100px;
+    height: 40px;
+    background: rgb(239, 240, 236);
+    border: black;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cn a
+{
+    color: black;
+}
+
+.cn:hover
+{
+    background-color: yellow;
+}
+.content span
+{
+    color: yellow;
+    font-size: 40px;
+}
+
+.form 
+{
+    width: 240px;
+    height: 250px;
+    background:url("image/2.jpg");
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aqua;
+    margin: 2px;
+    padding: 5px;
+    
+}
+
+.form input
+{
+
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #131111;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    color: rgb(8, 8, 8);
+    font-family: Cambria;
+}
+
+
+.btrn
+{
+
+    width: 240px;
+    height: 40px;
+    background: yellowgreen;
+    margin-top: 10px;
+    border: none;
+    color: black;
+    font-size: 16px ;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f5eeee;
+}
+
+.btrn:hover{
+    background: #e2f537;
+    color: #141413;
+}
+.btrn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff000d;
+}
+
