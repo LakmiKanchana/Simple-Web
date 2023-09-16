@@ -130,20 +130,7 @@ ul li a:hover
     color:rgb(17, 14, 9);
     position: relative;
 }
-.para
-{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial;
-    letter-spacing: 5.2px;
-    line-height: 30px;
-    color: rgb(17, 16, 16);
 
-}
-.para mark
-{
-    background-color: rgb(245, 240, 240);
-}
 h1
 {
     font-family: Georgia;
